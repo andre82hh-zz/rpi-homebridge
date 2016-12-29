@@ -15,4 +15,4 @@ ADD entrypoint.sh /entrypoint.sh
 # Run container
 ##################################################
 EXPOSE 5353 51826
-CMD ["/entrypoit.sh"]
+CMD ["/entrypoint.sh"]
