@@ -1,12 +1,7 @@
-language: go
-
 sudo: required
 
 services:
   - docker
-
-go:
-  - 1.7.x
 
 script:
   - sudo apt-get --yes --no-install-recommends install binfmt-support qemu-user-static
